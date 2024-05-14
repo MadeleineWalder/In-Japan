@@ -1,0 +1,17 @@
+/* Custom CSS for styling */
+/* You can style your photos here */
+.card-img-top {
+    max-height: 300px;
+    object-fit: cover;
+}
+
+body {
+    background-color: #dedede;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  

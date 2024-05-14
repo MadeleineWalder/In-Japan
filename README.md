@@ -2,3 +2,7 @@
 
 Welcome to my Japam Blog!
 Click here to view the live site: 
+
+## Local Hosting
+
+python -m http.server
