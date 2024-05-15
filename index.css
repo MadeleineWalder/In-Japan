@@ -2,7 +2,7 @@
 
 /* Main image */
 .hero {
-    background-image: url(/images/cherry-blossom1.JPG);
+    background-image: url(images/cherry-blossom1.JPG);
     background-size: cover;
     min-height: 60vh;
     position: relative;
