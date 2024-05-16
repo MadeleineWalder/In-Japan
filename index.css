@@ -2,39 +2,55 @@
 
 /* Main image */
 .hero {
-    background-image: url(images/cherry-blossom1.JPG);
+    background-image: url(images/cherry-blossom5.JPG);
     background-size: cover;
-    min-height: 60vh;
+    min-height: 33vh;
     position: relative;
     color: #ffffff;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
-}
-
-h1 {
-    font-size: 4rem;
-}
-
-/* Div on top of image that contains header and caption text */
-.overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    /*background-color: rgba(0, 0, 0, .1);*/
-}
-
-/* To make the header and caption stand out from the hero image*/
-.contrast-overlay {
-    background-color: rgba(0, 0, 0, .6);
+    
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: #fbfbfb;
+    font-family: "Titillium Web", sans-serif;
 }
 
-.footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+.title {
+    font-family: "Dancing Script", cursive;
+    font-size: 6.5rem;
+    font-weight: 700;
+}
+
+.caption {
+    font-family: "Kalam", cursive;
+    font-size: 1.8rem;
+}
+
+.sub-heading {
+    font-size: 2.3rem;
+    font-family: "Kalam", cursive;
+    text-decoration: underline;
+}
+
+.blog-content {
+    font-size: 1.3rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.date-name {
+    font-size: 1.4rem;
+    font-family: "Kalam", cursive;
+    color: rgba(0, 0, 0, .4);
+}
+
+.side-bar {
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.side-bar h3 {
+    font-size: 1.6rem;
+    font-family: "Kalam", cursive;
 }
 
 /* Don't forget media queries starting with hero image https://youtu.be/W87XNjvXiWw?si=y6wQXwiq8vla04F8 */
