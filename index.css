@@ -27,8 +27,8 @@ body {
 }
 
 .sub-heading {
-    font-size: 2.3rem;
-    font-family: "Kalam", cursive;
+    font-size: 1.5rem;
+    font-family: "Montserrat", serif;
     text-decoration: underline;
 }
 
@@ -49,8 +49,8 @@ body {
 }
 
 .side-bar h3 {
-    font-size: 1.6rem;
-    font-family: "Kalam", cursive;
+    font-size: 1.4rem;
+    font-family: "Montserrat", serif;
 }
 
 /* Don't forget media queries starting with hero image https://youtu.be/W87XNjvXiWw?si=y6wQXwiq8vla04F8 */
