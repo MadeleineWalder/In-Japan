@@ -53,5 +53,11 @@ body {
     font-family: "Montserrat", serif;
 }
 
+.image1 {
+    background-image: url(/images/orange.JPG);
+    background-size: contain;
+    min-height: 33vh;
+}
+
 /* Don't forget media queries starting with hero image https://youtu.be/W87XNjvXiWw?si=y6wQXwiq8vla04F8 */
   
