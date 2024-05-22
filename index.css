@@ -15,6 +15,10 @@ body {
     font-family: "Titillium Web", sans-serif;
 }
 
+.header_text{
+    min-height: 20vh;
+}
+
 .title {
     font-family: "Dancing Script", cursive;
     font-size: 6.5rem;
@@ -37,6 +41,7 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+/* UNUSED */
 .date-name {
     font-size: 1.4rem;
     font-family: "Kalam", cursive;
@@ -53,10 +58,21 @@ body {
     font-family: "Montserrat", serif;
 }
 
-.image1 {
-    background-image: url(/images/orange.JPG);
-    background-size: contain;
-    min-height: 33vh;
+.intro {
+    min-height: 30vh;
+}
+
+.para1 {
+    min-height: 30vh;
+}
+
+.padding {
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.para2 {
+    min-height: 30vh;
 }
 
 /* Don't forget media queries starting with hero image https://youtu.be/W87XNjvXiWw?si=y6wQXwiq8vla04F8 */
