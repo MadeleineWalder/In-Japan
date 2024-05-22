@@ -16,27 +16,35 @@
 <body>
 
   <!-- Hero image -->
-  <div class="hero justify-content-center"></div>
+  <div class="hero justify-content-center" id="page_top"></div>
   
   <!-- Title -->
-  <div class="container-fluid mb-5 header_text">
+  <div class="container-fluid mb-5 header_text text-center">
     <div class="row justify-content-center">
-      <div class="col-md-2 mt-3">
-        <h1 class="title">In Japan.</h1>
+      <div class="col-md-2 mt-5">
+        <h1 class="title">In Japan</h1>
       </div>
     </div>
     <!-- Caption -->
     <div class="row justify-content-center">
       <div class="col-md-2">
-        <h2 class="caption">Little Things, Big Differences.</h2>
+        <h2 class="caption">Little Things, Big Differences</h2>
+      </div>
+    </div>
+    <!-- Buttons -->
+    <div class="row justify-content-center mt-5">
+      <div class="col-md-2">
+        <!-- Read button -->
+        <a class="btn btn-dark" href="#intro" role="button">Read</a>
+        <!-- About button -->
+        <a class="btn btn-dark" href="/about.html" role="button">About</a>
       </div>
     </div>
   </div>
 
   <!-- Introduction -->
-  <div class="container-fluid intro mt-5 mb-5">
-    <div class="row justify-content-center">
-      <div class="col-md-3"></div>
+  <div class="container-fluid intro mt-5 mb-5" id="intro">
+    <div class="row justify-content-center center-content">
       <div class="col-md-6 mt-5">
         <h2 class="sub-heading">Introduction</h2>
         <p class="blog-content">
@@ -45,26 +53,18 @@
           things that are different over there. This list quickly grew a lot larger than I was expecting, so now it has become a blog I guess! It will also be a great 
           excuse to use some of the best photos we took. I hope you enjoy!
         </p>
-      </div>
-      <div class="col-md-1"></div>
-      <div class="col-md-2 mt-5 side-bar">
-        <h3>Hi there!</h3>
-        <p>
-          I'm a junior web developer and travel enthusiast.
-          I made this website for my blog and it was really fun to 
-          combine my love for frontend design and travelling.
-        </p>
-        <p>
-          Like what you see? I'm open to work! Checkout my <a href="https://madeleinewalder.github.io/portfolio/" target="_blank">Portfolio</a> website and <a href="https://www.linkedin.com/in/madeleine-walder/" target="_blank">LinkedIn</a> profile.
-        </p>
+        <!-- Continue button -->
+        <div class="text-center mt-5">
+          <a class="btn btn-dark" href="#para1" role="button">Next</a>
+        </div>
       </div>
     </div>
   </div>
 
   <!-- Paragraph 1 -->
-  <div class="container-fluid para1 mt-5 mb-5">
-    <div class="row justify-content-center">
-      <div class="col-md-4 mt-5 padding">
+  <div class="container-fluid para1 mt-5 mb-5" id="para1">
+    <div class="row justify-content-center center-content">
+      <div class="col-md-4 padding">
           <h2 class="sub-heading">The heated toilet seat is not optional</h2>
           <p class="blog-content">
             This was one of the first things I noticed when we arrived at the hotel and went to unpack and shower. I knew the toilet would have a bidet because that's something 
@@ -72,9 +72,13 @@
             have it on constantly whether you want it or not.  At first I kept forgetting about it and then being surprised when I sat down, but after a while it was quite nice. 
             I actually really missed it when I came home! I didn't take any photos of the toilet because that felt weird...
           </p>
+          <!-- Continue button -->
+          <div class="text-center mt-5">
+            <a class="btn btn-dark btn-sm" href="#para2" role="button">Next</a>
+          </div>
       </div>
       <div class="col-md-1"></div>
-      <div class="col-md-4 mt-5">
+      <div class="col-md-4">
         <!-- Image 1 -->
         <img src="/images/orange.JPG" class="img-fluid" alt="Responsive image">
       </div>
@@ -82,8 +86,8 @@
   </div>
 
   <!-- Paragraph 2 -->
-  <div class="container-fluid para2 mt-3 mb-5">
-    <div class="row justify-content-center">
+  <div class="container-fluid para2 mt-3 mb-5" id="para2">
+    <div class="row justify-content-center center-content">
       <div class="col-md-6 mt-5">
         <h2 class="sub-heading">CLEAN!</h2>
         <p class="blog-content">
@@ -97,14 +101,18 @@
           specific marked lines, muting your phone on public transport and the airport ground staff waving at the planes 
           as they take off.
         </p>
+        <!-- Continue button -->
+        <div class="text-center mt-5">
+          <a class="btn btn-dark btn-sm" href="#para3" role="button">Next</a>
+        </div>
       </div>
     </div>
   </div>
 
   <!-- Paragraph 3 -->
-  <div class="container-fluid para3 mt-3 mb-5">
-    <div class="row justify-content-center">
-      <div class="col-md-6 mt-5">
+  <div class="container-fluid para3 mt-3 mb-5" id="para3">
+    <div class="row justify-content-center center-content">
+      <div class="col-md-6">
         <h2 class="sub-heading">Foooood</h2>
         <p class="blog-content">
           You know it's going to be good when the staff don't speak English. Having to point to things on the menu and then show with our 
@@ -122,6 +130,12 @@
           better. And the fish. When we got home it felt so weird to hold a knife and fork again. But it's kind of necessary in order to cut your food, 
           wheras in Japan most things are already bite-size.
         </p>
+        <!-- Back to top button -->
+        <div class="text-center mt-5">
+          <a class="btn btn-dark btn-sm back-to-top" href="#page_top" role="button">
+            <span>Top</span>
+          </a>
+        </div>
       </div>
     </div>
   </div>
