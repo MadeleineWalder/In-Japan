@@ -1,22 +1,22 @@
-/* Custom CSS for styling */
+/* Custom CSS for styling the home page */
 
 /* Main image */
 .hero {
-    background-image: url(images/cherry-blossom5.JPG);
+    background-image: url(images/cherry-blossom2.JPG);
     background-size: cover;
-    min-height: 33vh;
+    min-height: 66vh;
     position: relative;
     color: #ffffff;
     
 }
 
 body {
-    background-color: #fbfbfb;
+    background-color: #ffffff;
     font-family: "Titillium Web", sans-serif;
 }
 
 .header_text{
-    min-height: 20vh;
+    min-height: 40vh;
 }
 
 .title {
@@ -31,7 +31,7 @@ body {
 }
 
 .sub-heading {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-family: "Montserrat", serif;
     text-decoration: underline;
 }
@@ -48,22 +48,17 @@ body {
     color: rgba(0, 0, 0, .4);
 }
 
-.side-bar {
-    font-size: 1rem;
-    font-family: "Montserrat", sans-serif;
-}
-
-.side-bar h3 {
-    font-size: 1.4rem;
-    font-family: "Montserrat", serif;
-}
-
 .intro {
-    min-height: 30vh;
+    min-height: 100vh;
+    background-color: lightgrey;
 }
 
 .para1 {
-    min-height: 30vh;
+    min-height: 100vh;
+}
+
+.center-content {
+    padding-top: 30vh;
 }
 
 .padding {
@@ -72,7 +67,26 @@ body {
 }
 
 .para2 {
-    min-height: 30vh;
+    min-height: 100vh;
+    background-color: lightgrey;
+}
+
+.para3 {
+    min-height: 100vh;
+}
+
+/* Button page scroll smoothing */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.back-to-top {
+    transition: 0.2s ease-out;
+}
+
+.back-to-top span {
+    transition: 0.2s ease-out;
 }
 
 /* Don't forget media queries starting with hero image https://youtu.be/W87XNjvXiWw?si=y6wQXwiq8vla04F8 */
